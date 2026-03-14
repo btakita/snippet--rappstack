@@ -39,7 +39,7 @@ import {
 	svg_,
 	use_
 } from 'relementjs/svg'
-import { type request_ctx_T } from 'rebuildjs/server'
+import { type request_ctx_T } from 'rhonojs/server'
 import { layout__doc_html_ } from '../../layout/index.js'
 import { type tab_id_T } from '../any/index.js'
 import { layout__footer_ } from './layout__footer.js'
