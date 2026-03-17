@@ -39,9 +39,9 @@
 		"layout"
 	],
 	"dependencies": {
-		"@rappstack/domain--server": "workspace:*",
-		"@rappstack/ui--browser": "workspace:*",
-		"@rappstack/ui--server": "workspace:*",
+		"@rappstack/domain--server": "^0.1.0",
+		"@rappstack/ui--browser": "^0.1.1",
+		"@rappstack/ui--server": "^0.1.1",
 		"ctx-core": "^7.2.32",
 		"rebuildjs": "^0.70.43",
 		"relementjs": "^0.80.31",
