@@ -39,7 +39,7 @@
 		"layout"
 	],
 	"dependencies": {
-		"@rappstack/domain--server": "^0.1.0",
+		"@rappstack/domain--server": "^0.1.1",
 		"@rappstack/ui--browser": "^0.1.1",
 		"@rappstack/ui--server": "^0.1.1",
 		"ctx-core": "^7.2.32",
