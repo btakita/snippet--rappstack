@@ -4,7 +4,9 @@ export function layout__header__hyop(home__header:HTMLElement) {
 	window.addEventListener('scroll', update)
 	update()
 	function update() {
-		home__header.classList.toggle('scroll-down', window.scrollY > 10)
+		const scrolled = window.scrollY > 10
+		home__header.classList.toggle('scroll-down', scrolled)
+		document.documentElement.classList.toggle('scrolled', scrolled)
 	}
 }
 const [
